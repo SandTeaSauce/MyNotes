@@ -1,4 +1,4 @@
-# 1、了解SpringBoot
+# 了解SpringBoot
 
 在这一部分，我们主要了解以下3个问题：
 
@@ -7,7 +7,7 @@
 - 为什么要学习SpringBoot
 - SpringBoot的特点
 
-## 1.1、什么是SpringBoot
+## 什么是SpringBoot
 
 SpringBoot是Spring项目中的一个子工程，与我们所熟知的Spring-framework 同属于spring的产品:
 
@@ -23,7 +23,7 @@ SpringBoot是Spring项目中的一个子工程，与我们所熟知的Spring-fra
 
 其实人们把Spring Boot 称为搭建程序的脚手架。其最主要作用就是帮我们快速的构建庞大的spring项目，并且尽可能的减少一切xml配置，做到开箱即用，迅速上手，让我们关注与业务而非配置。
 
-## 1.2、为什么要学习SpringBoot
+## 为什么要学习SpringBoot
 
 java一直被人诟病的一点就是臃肿、麻烦。当我们还在辛苦的搭建项目时，可能Python程序员已经把功能写好了，究其原因注意是两点：
 
@@ -39,7 +39,7 @@ java一直被人诟病的一点就是臃肿、麻烦。当我们还在辛苦的�
 
 我们可以使用SpringBoot创建java应用，并使用java –jar 启动它，就能得到一个生产级别的web工程。
 
-## 1.3、SpringBoot的特点
+## SpringBoot的特点
 
 Spring Boot 主要目标是：
 
@@ -389,7 +389,7 @@ public class HelloController {
 
 ### 3.3.3. properties配置
 
-#### ①、类型安全的属性注入
+#### 类型安全的属性注入
 
 在SpringBoot中，提供了一种新的属性注入方式，支持各种java基本数据类型及复杂类型的注入。
 
@@ -481,7 +481,7 @@ public Datasource dataSource(JdbcProperties prop){
 
 
 
-#### ②、更优雅的注入
+#### 更优雅的注入
 
 事实上，如果一段属性只有一个Bean需要使用，我们无需将其注入到一个类（JdbcProperties）中。而是直接在需要的地方声明即可：
 
